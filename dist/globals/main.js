@@ -442,9 +442,7 @@ exports["default"] = Ember.Component.extend({
   },
 
   willDestroyElement: function() {
-    if( lastOpenedModal === this ) {
-      lastOpenedModal = null;
-    }
+    if (lastOpenedModal === this) lastOpenedModal = null;
   },
 
   /**

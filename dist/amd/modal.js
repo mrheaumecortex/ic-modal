@@ -183,9 +183,7 @@ define(
       },
 
       willDestroyElement: function() {
-        if( lastOpenedModal === this ) {
-          lastOpenedModal = null;
-        }
+        if (lastOpenedModal === this) lastOpenedModal = null;
       },
 
       /**

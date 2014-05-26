@@ -456,9 +456,7 @@ define("ic-modal/modal",
       },
 
       willDestroyElement: function() {
-        if( lastOpenedModal === this ) {
-          lastOpenedModal = null;
-        }
+        if (lastOpenedModal === this) lastOpenedModal = null;
       },
 
       /**
